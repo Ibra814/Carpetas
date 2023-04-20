@@ -3,15 +3,9 @@ import pandas as pd
 import shutil
 from colorama import Fore, Style
 
-
-print(Fore.YELLOW + "                    © Daniel Rueda ®    " + Style.RESET_ALL)
-print(Fore.YELLOW + '                    █║▌│█│║▌║││█║▌║▌║' + Style.RESET_ALL)
-print(Fore.YELLOW + '         ▂ ▃ ▅ ▆ █ Tecnico en Sistemas █ ▆ ▅ ▃ ▂ '+ Style.RESET_ALL)
-print('\n')
-
 print('El programa es una herramienta que facilita la organización de archivos en una carpeta. El programa tiene la capacidad de crear carpetas con nombres específicos y mover archivos específicos a la ruta de esas carpetas.\nPara utilizar el programa el usuario debe proporcionar la ruta especifica de donde se encuentran los archivos.\n')
 
-print(Fore.RED + '𝙄𝙉𝙎𝙏𝙍𝙐𝘾𝘾𝙄𝙊𝙉𝙀𝙎' + Style.RESET_ALL)
+print('Instrucciones')
 
 print('1. El nombre de los archivos debe estar separado por una coma (,) que será la referencia para tomar el nombre de la carpeta donde sé guardará el archivo.\n2. El programa soporta los siguientes tipos de archivos.\n\n•pdf\n•xlsx\n•docx\n•xls\n•jpg\n•png\n')
 
